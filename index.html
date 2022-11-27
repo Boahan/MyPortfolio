@@ -9,6 +9,35 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
+          <div class="nav-sm hide">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+            <div class="nav-sm-items hide">
+                <a href="#about-me">About Me</a> 
+                <a href="#project">Projects</a>
+                <a id="connect-btn-sm">Connect</a>
+            </div>
+            <div class="modal-container hide">
+                <div class="modal-layout">
+                    <div class="modal-header">
+                        <h2>Connect With Me</h2>
+                    </div>
+                    <div class="modal-body">
+                    <form id="connect-with-me">
+                        <input type="text" placeholder="First Name" required><br>
+                        <input type="text" placeholder="Last Name" required><br>
+                        <input type="email" placeholder="Email Address" required><br>
+                        <input type="tel" placeholder="Mobile Number"><br>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn-primary" id="modal-close-btn" type="button">close</button>
+                        <button class="btn-secondary" type="submit" form="connect-with-me">connect</button>
+                    </div>
+                </div>
+            </div>
         <div class="landing-area">
             <div class="landing-area-head">
                 <img src="logo's/IMG-20220718-WA0021.jpg" alt="my image">
@@ -19,7 +48,7 @@
             <div class="landing-area-nav">
                <a href="#about-me"><li>About Me</li></a> 
                <a href="#project"><li>Projects</li></a>
-               <a href="./index (2).html" target="_blank"><li>Connect</li></a>
+               <a id='connect-button-lg"><li>Connect</li></a>
             </div>
         </div>
         <div class="main-content-area">
@@ -40,8 +69,8 @@
                             <h4>Password generator</h4>
                             <p>HTML ,CSS ,HTML</p>
                             <div class="project-view-button">
-                                <button id="btn-code">Code</button>
-                                <button id="btn-project">Project</button>
+                                <button class="btn-primary">Code</button>
+                                <button class="btn-seconday">Project</button>
                             </div>
                         </div>
                     </div>
@@ -54,8 +83,8 @@
                             <h4>Password generator</h4>
                             <p>HTML ,CSS ,HTML</p>
                             <div class="project-view-button">
-                                <button id="btn-code">Code</button>
-                                <button id="btn-project">Project</button>
+                                <button class="btn-primary">Code</button>
+                                <button class="btn-seconday">Project</button>
                             </div>
                         </div>
                     </div>
@@ -68,8 +97,8 @@
                             <h4>Password generator</h4>
                             <p>HTML ,CSS ,HTML</p>
                             <div class="project-view-button">
-                                <button id="btn-code">Code</button>
-                                <button id="btn-project">Project</button>
+                                <button class="btn-primary">Code</button>
+                                <button class="btn-seconday">Project</button>
                             </div>
                         </div>
                     </div>
@@ -90,5 +119,6 @@
         </a>
         <p>&copy Shaswat Gusain</p>
         </div>
+       <script src="script.js"></script>
     </body>
 </html>
